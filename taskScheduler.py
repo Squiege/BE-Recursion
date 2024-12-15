@@ -9,6 +9,7 @@ def schedule_tasks(task_hierarchy, n=None):
         return task_hierarchy
 
     # I am using bubble sort to order them so the time complexity is O(n^2) and the space complexity is O(n) depending on the number of tasks
+    # I can use other sorting methods depending on the size of the data to create more efficient sorting.
     # Sorting tasks based on priority
 
     # Getting the entire list
